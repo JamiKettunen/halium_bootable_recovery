@@ -216,6 +216,7 @@ cc_binary {
         "gpg",
         "bsdtar-recovery",
         "install-system_ubports",
+        "lpresize",
         "lvm",
         "lvm-fs-migrator",
         "lvm-super-migrator",
