@@ -43,6 +43,20 @@ cc_prebuilt_binary {
     recovery: true,
 }
 
+cc_prebuilt_binary {
+    name: "setup-usb_ubports",
+    stem: "setup-usb",
+    srcs: ["setup-usb"],
+    recovery: true,
+}
+
+cc_prebuilt_binary {
+    name: "setup-fake-cache_ubports",
+    stem: "setup-fake-cache",
+    srcs: ["setup-fake-cache"],
+    recovery: true,
+}
+
 // UBports prebuilts
 // ===============================
 
