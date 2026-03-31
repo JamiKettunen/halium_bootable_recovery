@@ -42,9 +42,6 @@ on init
     rmdir /sbin
     symlink /system/bin /sbin
 
-    # UBports: run awk in scripts without busybox prefix
-    symlink busybox /system/bin/awk
-
     mkdir /sdcard
     mkdir /system
     mkdir /data
