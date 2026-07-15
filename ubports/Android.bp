@@ -26,6 +26,7 @@ cc_prebuilt_binary {
     name: "install-system_ubports",
     stem: "install-system",
     srcs: ["install-system"],
+    check_elf_files: false, // shellscript..
     recovery: true,
 }
 
@@ -33,6 +34,7 @@ cc_prebuilt_binary {
     name: "replace-system_ubports",
     stem: "instreplaceall-system",
     srcs: ["replace-system"],
+    check_elf_files: false, // shellscript..
     recovery: true,
 }
 
@@ -40,6 +42,7 @@ cc_prebuilt_binary {
     name: "system-image-upgrader_ubports",
     stem: "system-image-upgrader",
     srcs: ["system-image-upgrader"],
+    check_elf_files: false, // shellscript..
     recovery: true,
 }
 
@@ -47,6 +50,7 @@ cc_prebuilt_binary {
     name: "setup-usb_ubports",
     stem: "setup-usb",
     srcs: ["setup-usb"],
+    check_elf_files: false, // shellscript..
     recovery: true,
 }
 
@@ -54,6 +58,7 @@ cc_prebuilt_binary {
     name: "setup-fake-cache_ubports",
     stem: "setup-fake-cache",
     srcs: ["setup-fake-cache"],
+    check_elf_files: false, // shellscript..
     recovery: true,
 }
 
